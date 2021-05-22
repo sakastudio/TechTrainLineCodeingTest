@@ -1,0 +1,6 @@
+C:\Users\satou_katsumi\RiderProjects\TechTrainLineCodeingTest\TechTrainLineCodeingTest\bin\Debug\TechTrainLineCodeingTest.exe
+C:\Users\satou_katsumi\RiderProjects\TechTrainLineCodeingTest\TechTrainLineCodeingTest\bin\Debug\TechTrainLineCodeingTest.pdb
+C:\Users\satou_katsumi\RiderProjects\TechTrainLineCodeingTest\TechTrainLineCodeingTest\obj\Debug\TechTrainLineCodeingTest.csprojAssemblyReference.cache
+C:\Users\satou_katsumi\RiderProjects\TechTrainLineCodeingTest\TechTrainLineCodeingTest\obj\Debug\TechTrainLineCodeingTest.csproj.CoreCompileInputs.cache
+C:\Users\satou_katsumi\RiderProjects\TechTrainLineCodeingTest\TechTrainLineCodeingTest\obj\Debug\TechTrainLineCodeingTest.exe
+C:\Users\satou_katsumi\RiderProjects\TechTrainLineCodeingTest\TechTrainLineCodeingTest\obj\Debug\TechTrainLineCodeingTest.pdb
