@@ -1,4 +1,6 @@
-﻿namespace TechTrainLineCodeingTest
+﻿using System;
+
+namespace TechTrainLineCodeingTest
 {
     public class RunningDistance
     {
@@ -14,6 +16,8 @@
             {
                 Distance = next.Distance - prev.Distance;
             }
+
+            if (Distance < 0.1) throw new ArgumentOutOfRangeException();
         }
     }
 }

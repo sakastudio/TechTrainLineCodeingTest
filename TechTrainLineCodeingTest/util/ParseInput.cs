@@ -7,20 +7,17 @@ namespace TechTrainLineCodeingTest
     {
         public List<RunningLog> Parse()
         {
-            var strings = new List<string>();
-
+            var output = new List<RunningLog>();
+            
+            var first = new RunningLog(Console.ReadLine());
+            if (first.Distance != 0) throw new ArgumentOutOfRangeException();
+            output.Add(first);
+            
             while (true)
             {
                 var input = Console.ReadLine();
                 if(input.Equals(String.Empty)) break;
-                strings.Add(input);
-            }
-
-            var output = new List<RunningLog>();
-
-            foreach (var str in strings)
-            {
-                output.Add(new RunningLog(str));
+                output.Add(new RunningLog(input));
             }
 
             return output;

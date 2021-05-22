@@ -1,4 +1,6 @@
-﻿namespace TechTrainLineCodeingTest
+﻿using System;
+
+namespace TechTrainLineCodeingTest
 {
     public class RunningSpeed
     {
@@ -13,6 +15,8 @@
             {
                 Second *= 1.25;
             }
+            
+            if (Second < 0) throw new ArgumentOutOfRangeException();
         }
     }
 }
